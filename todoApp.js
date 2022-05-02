@@ -4,8 +4,8 @@
   container.classList.add('mx-auto');
   const savedTodos = JSON.parse(localStorage.getItem(token)); // Загружаем массив со всеми объектами из ЛС
   const defaultTodos = [
-    {id: 1, name: 'разобраться с localStorage', done: false},
-    {id: 2, name: 'поехать кукухой', done: true},
+    {id: 1, name: 'Открыть список дел', done: true},
+    {id: 2, name: 'Начать пользоваться списком дел', done: false},
   ];
   // Здесь объекты формата {id:.., name:..., done:true/false}
   let todos = [];
